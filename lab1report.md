@@ -3,9 +3,9 @@
 ## cd command
 
 - No arguments:
--         Output: 
+  - Output: 
 - Directory argument:
--         
+         
 - File argument:
 -         
 
