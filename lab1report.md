@@ -3,7 +3,7 @@
 ## cd command
 
 - No arguments:
-  - Output:
+  - Output: ![Image](cd.png)
     
   - Working Directory: /home
     
