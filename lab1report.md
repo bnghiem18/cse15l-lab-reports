@@ -5,11 +5,11 @@
 - No arguments:
   - Output:
     
-  - Working Directory:
+  - Working Directory: /home
     
-  - Output Reasoning:
+  - Output Reasoning: I didn't get an output, instead I was pushed to the home directory. I would assume cd takes you to the home directory anyway. 
     
-  - Error?
+  - Error? It is not an error because it is our home directory. 
     
 - Directory argument:
   - Output:
