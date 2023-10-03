@@ -57,7 +57,8 @@
     
   - Output Reasoning:
     
-  - Error?   
+  - Error?
+  
 ---
 
 ## cat command
