@@ -12,7 +12,7 @@
   - Error? It is not an error because it is our home directory. 
     
 - Directory argument:
-  - Output:
+  - Output: ![Image](cdDirectory.png)
     
   - Working Directory: I was in the home directory before entering the command "cd lecture1". After that ran, I entered the lecture1 directory. 
     
@@ -21,7 +21,7 @@
   - Error? It is not an error because it entered the directory I called for. 
     
 - File argument:
-  - Output: 
+  - Output: ![Image](cdFile.png)
     
   - Working Directory: I was in the lecture1 directory before entering the command "cd Hello.java". I stayed in the lecture1 directory after it ran. 
     
@@ -33,7 +33,7 @@
 
 ## ls command
 - No arguments:
-  - Output:
+  - Output: ![Image](ls.png)
     
   - Working Directory: I was in the home directory before entering the command "ls". After that ran, I stayed in the home directory. 
     
@@ -42,7 +42,7 @@
   - Error? It is not an error. 
     
 - Directory argument:
-  - Output: 
+  - Output: ![Image](lsdirectory.png)
     
   - Working Directory: I was in the home directory before entering the command "ls lecture1". After that ran, I stayed in the home directory. 
     
@@ -51,7 +51,7 @@
   - Error? It is not an error. 
     
 - File argument:
-  - Output: 
+  - Output: ![Image](lsFile.png)
     
   - Working Directory: I was in the lecture1 directory before entering the command "ls Hello.java". After that ran, I stayed in the lecture1 directory.
     
@@ -63,7 +63,7 @@
 
 ## cat command
 - No arguments:
-  - Output:
+  - Output: ![Image](cat.png)
     
   - Working Directory: /home
     
@@ -72,7 +72,7 @@
   - Error? I don't think this is an error because cat is supposed to read files, so it would make sense that it is waiting for something to read and output. 
     
 - Directory argument:
-  - Output:
+  - Output: ![Image](catDirectory.png)
     
   - Working Directory: /home
     
@@ -81,7 +81,7 @@
   - Error? There was an error message because lecture1 is a directory and the cat command reads through files, not directories. 
     
 - File argument:
-  - Output:
+  - Output: ![Image](catFile.png)
     
   - Working Directory: /home/lecture1
     
