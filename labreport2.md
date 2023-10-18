@@ -4,7 +4,7 @@
 ## Part 1
 
 ![Image](lab2images/startingserver.png)	
-![Image](lab2images/intialpage.png)	
+![Image](lab2images/initialpage.png)	
 ![Image](lab2images/addingboom.png)	
 ![Image](lab2images/boom1.png)	
 
