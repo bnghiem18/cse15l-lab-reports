@@ -22,7 +22,7 @@ When I started the server, the main method was called to establish the port numb
 
 In the handleRequest method, the argument is the URL because that's where it pulls the path. String str is a data field that represents the string to be printed on the screen. Int num is a data field that both counts how many words have been added and what position the word is at. 
 
-When I added the second word, the num was incremented to 2 and the string became "\n 2. bam". The URL was http://localhost:2300/add-message?s=bam. The reason this happens is when it gets passed through the method, it recognizes that the request contains add-message. This passes it through the rest of the method and increments num as well as concatenating the data field str with the string from the path. 
+When I added the second word, the num was incremented to 2 and the string became "\n 1. boom \n 2. bam". The URL was http://localhost:2300/add-message?s=bam. The reason this happens is when it gets passed through the method, it recognizes that the request contains add-message. This passes it through the rest of the method and increments num as well as concatenating the data field str with the string from the path. 
 
 ---
 
