@@ -20,6 +20,15 @@ When I added the second word, the num was incremented to 2 and the string became
 
 ## Part 2
 
+
+I entered the .ssh directory in order to find the private and public key. The private key is id_rsa while the public key is id_rsa.pub.
+
+
+
+Here is me logging into ieng6 :)
+
 ---
 
 ## Part 3
+
+I learned how to access a remote host from my local computer which was really cool. I also learned that the mkdir command makes directory, even if they're new to the file system. 
