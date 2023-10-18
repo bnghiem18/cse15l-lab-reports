@@ -3,6 +3,8 @@
 
 ## Part 1
 
+![Image](lab2images/startingserver.png)	
+
 When I started the server, the main method was called to establish the port number, which I chose to be 2300. Then when I added the first word, the handleRequest method was called. It passed in the path from the url.
 
 In the handleRequest method, the argument is the URL because that's where it pulls the path. String str is a data field that represents the string to be printed on the screen. Int num is a data field that both counts how many words have been added and what position the word is at. 
