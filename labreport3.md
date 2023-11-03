@@ -32,7 +32,7 @@ An example of an input that doesn't induce a failure is:
 ```
 
 Here is the symptom from running both tests: 
-
+![TestOutputs](lab3images/testOutputs.png)
 
 The code originally was this: 
 ```
