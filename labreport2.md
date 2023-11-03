@@ -28,13 +28,17 @@ When I added the second word, the num was incremented to 2 and the string became
 
 ## Part 2
 
-![Image](lab2images/keys.png)	
+![Image](lab2images/localPath.png)	
 
-I entered the .ssh directory in order to find the private and public key. The private key is id_rsa while the public key is id_rsa.pub.
+The absolute path on my local computer that contains the private and public key is: /Users/brandonnghiem/.ssh. 
+The private key is id_rsa while the public key is id_rsa.pub.
 
-![Image](lab2images/login.png)	
+![Image](lab2images/ieng6Path.png)	
+The path to the public key for my SSH key for logging into ieng6 is: /home/linux/ieng6/cs15lfa23/cs15lfa23jy/.ssh
+The public key is contained under the file name "authorized_keys".
 
 
+![login](lab2images/login.png)
 Here is me logging into ieng6 :)
 
 ---
