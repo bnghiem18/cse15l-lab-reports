@@ -144,22 +144,36 @@ jdb ShoppingCart
 **ShoppingCart.java** (File with bug): shown above in the "edstem post"
 
 **Command line info that triggered bug**:
+
 1) Run `bash test.sh`
+   
 2) In JDB mode, use command `run`
 
 Description of what to edit to fix the bug:
 1) `vim ShoppingCart.java`
+   
 2) `:set nu` to find line numbers (for breakpoints)
+   
 3) `:q!` to exit vim
+   
 4) Run `bash test.sh`
-5) `stop at ShoppingCart: 54` et breakpoints in file ShoppingCart.java for lines 54, 55, 56 (or whatever breakpoints that will help you understand the bug) 
+   
+5) `stop at ShoppingCart: 54` et breakpoints in file ShoppingCart.java for lines 54, 55, 56 (or whatever breakpoints that will help you understand the bug)
+   
 6) `cont` to move through breakpoints
+    
 7) `exit` to leave JDB
+    
 8) `vim ShoppingCart.java`
+    
 9) Move to line 33: `String[] newArr = new String[shoppingCart.length]` change to `String[] newArr = new String[2*shoppingCart.length]`
+    
 10) Create a new line after line 16 and call the expand capacity method: `expandCapacity();`
-11) `esc` to leave insert nmode
+    
+11) `esc` to leave insert mode
+    
 12) `:wq!` to save changes
+    
 13) Run `bash test.sh`, and expected quantity should match up with actual quantity
 
 
