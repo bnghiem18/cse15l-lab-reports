@@ -101,7 +101,7 @@ public static void main (String[] args){
 
 ## Putting Advice to Use
 
-Using these commands, the student was able to assess the quality of the add method and the expandCapacity method. Setting up breakpoints for adding the ninth item, the tenth item, and the eleventh item, they discovered that after adding the tenth item, the quantity remained the same. But going from 9 to 10 increased the quantity, so the bug seems to be in the expandCapacity method. After this realization the student wen tback to examine their expandCapacity() method and realized that when they were creating a new array, they were setting the size of the array to be the same length instead of doubling it. They also forgot to make a direct call to the expandCapacity method in the add method, so turns out their bug was in both methods as they assumed. 
+Using these commands, the student was able to assess the quality of the add method and the expandCapacity method. Setting up breakpoints for adding the ninth item, the tenth item, and the eleventh item, they discovered that after adding the tenth item, the quantity remained the same. But going from 9 to 10 increased the quantity, so the bug seems to be in the expandCapacity method. After this realization the student went back to examine their expandCapacity() method and realized that when they were creating a new array, they were setting the size of the array to be the same length instead of doubling it. They also forgot to make a direct call to the expandCapacity method in the add method, so turns out their bug was in both methods as they assumed. 
 
 Navigating with `:set nu`:
 ![setnu](lab5images/setnu.png)
