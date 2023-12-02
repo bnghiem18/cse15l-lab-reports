@@ -25,7 +25,7 @@ Bash script to run tests using JDB
 > Hi, I have implemented the three methods in my ShoppingCart.java file. The file compiles, so my code seems to work. I have ran three tests each testing the quantity of the basket I made. I ran and instance of the test with 1 item, another with 10 items, and a third instance with 15 items. All my tests pass but my cart with 15 items. If I was succesful in adding 1 and 10 items, why does my third test fail? I want to assume that I can't add more than 10 items. I have an expandCapacity method that makes the basket bigger if the size exceeds the length of the array, so the problem must be in my add method?  
  
 Here is a screenshot of the symptom:
-![intialTest](lab5images/intialRun,png)
+![intialTest](lab5images/intialRun.png)
 
 Here is my ShoppingCart.java Implementation:
 ```
@@ -110,7 +110,7 @@ JDB Setting up breakpoints:
 ![breakpoints](lab5images/545556.png)
 
 Fixing the Bugs:
-![BugFixes](lab5images/bug_fixes.png)
+![BugFixes](lab5images/bugfixes.png)
 
 Success:
 ![Success](lab5images/success.png)
