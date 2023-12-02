@@ -25,6 +25,7 @@ Bash script to run tests using JDB
 > Hi, I have implemented the three methods in my ShoppingCart.java file. The file compiles, so my code seems to work. I have ran three tests each testing the quantity of the basket I made. I ran and instance of the test with 1 item, another with 10 items, and a third instance with 15 items. All my tests pass but my cart with 15 items. If I was succesful in adding 1 and 10 items, why does my third test fail? I want to assume that I can't add more than 10 items. I have an expandCapacity method that makes the basket bigger if the size exceeds the length of the array, so the problem must be in my add method?  
  
 Here is a screenshot of the symptom:
+![intialTest](lab5images/intialRun)
 
 Here is my ShoppingCart.java Implementation:
 ```
@@ -102,7 +103,17 @@ public static void main (String[] args){
 
 Using these commands, the student was able to assess the quality of the add method and the expandCapacity method. Setting up breakpoints for adding the ninth item, the tenth item, and the eleventh item, they discovered that after adding the tenth item, the quantity remained the same. But going from 9 to 10 increased the quantity, so the bug seems to be in the expandCapacity method. After this realization the student wen tback to examine their expandCapacity() method and realized that when they were creating a new array, they were setting the size of the array to be the same length instead of doubling it. They also forgot to make a direct call to the expandCapacity method in the add method, so turns out their bug was in both methods as they assumed. 
 
-enter ss of trying the advice
+Navigating with `:set nu`:
+![setnu](lab5images/setnu)
+
+JDB Setting up breakpoints:
+![breakpoints](lab5images/545556)
+
+Fixing the Bugs:
+![BugFixes](lab5images/bug_fixes)
+
+Success:
+![Success](lab5images/success)
 
 Bug: The expandCapacity() method created a new array that had the same size as the origninal array (essentially doing nothing), and the add method did not make a call to the expandCapacity() method. 
 
