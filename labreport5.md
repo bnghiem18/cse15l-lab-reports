@@ -177,4 +177,10 @@ jdb ShoppingCart
     
 13) Run `bash test.sh`, and expected quantity should match up with actual quantity
 
+---
+
+## Reflection 
+
+During this quarter I learned how to navigate through files and directories directly from the terminal. Also, I learned a lot about the industry and what skills are useful for internships (debugging) through speaking with TAs such as Alon. Thank you!
+
 
