@@ -149,7 +149,8 @@ jdb ShoppingCart
    
 2) In JDB mode, use command `run`
 
-Description of what to edit to fix the bug:
+**Description of what to edit to fix the bug**:
+
 1) `vim ShoppingCart.java`
    
 2) `:set nu` to find line numbers (for breakpoints)
